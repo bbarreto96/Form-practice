@@ -1,0 +1,34 @@
+
+button {
+    color:red;
+    background-color: green;
+}
+#title{
+    text-align:center;
+    font-weight:800;
+    color:blue;
+    text-decoration:underline;
+}
+#hospitalphoto{ 
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:20%;
+height:50%;
+}
+
+p,h1,h2,h3,.infoform,.questionarre{ 
+text-align:center;
+}
+
+
+tr th{
+    color:red;
+}
+tr td{
+    color:blue;
+}
+
+table,td,th{
+    border: 1px solid black;
+}

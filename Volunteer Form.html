@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volunteer Form</title>
+    <link rel="stylesheet" href="CSS practice.css">
 </head>
 
 <body>
-    <h1>Volunteer Form For St.Josephs Hospital</h1>
-    <img src="file:///Users/bryanbarreto/Desktop/Udemy%20Course%20CS/HTML/Picture%20HTML%20folder/hospital%20photo.jpg"
-        alt="hospital photo" width="200" height="100">
-    <h2>Reasons To Volunteer at St.Josephs Hospital</h2>
+
+    <h1 id="title">Volunteer Form For St.Josephs Hospital</h1>
+    <img src="https://static01.nyt.com/images/2017/02/16/well/doctors-hospital-design/doctors-hospital-design-articleLarge.jpg?quality=90&auto=webp"
+        alt="Hospital Photo" width="100" height="100" id="hospitalphoto">
+
+
+    <h2 class="subtopics">Reasons To Volunteer at St.Josephs Hospital</h2>
     <p>
         Clearly there are many reasons why someone should come and volunteer at St.Josephs Hospital. For starters, itll
         help you realize what your dreams are truly are. For example, once you identity that you hate the hospital
@@ -21,7 +25,7 @@
     </p>
     <p>Reasons:</p>
     <ul>
-        <li>Find New career</li>
+        <li>Find New career</l i>
         <li>Understand healthcare isnt all that</li>
         <li>Find yourself</li>
     </ul>
@@ -56,49 +60,54 @@
 
     </Table>
     <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3748536/">Link To Study</a>
-    <h3>The questions below will help us determine whether or not you are a candidate for our positon!</h3>
+    <h3 class="subtopics">The questions below will help us determine whether or not you are a candidate for our positon!
+    </h3>
     <form action="/you_can_learn_anything.php">
+        <div class="questionarre">
+            <p>Where are you in your journey?</p>
+            <label for="prereqs">Prerequesites</label>
+            <input type="radio" name="journey" id="prereqs" value="prereqs"><br>
+            <label for="associates">Associates</label>
+            <input type="radio" name="journey" id="associates" value="associates"><br>
+            <label for="self-taught">Self Taught</label>
+            <input type="radio" name="journey" id="self-taugh11t" value="self-taught">
 
-        <p>Where are you in your journey?</p>
-        <label for="prereqs">Prerequesites</label>
-        <input type="radio" name="journey" id="prereqs" value="prereqs"><br>
-        <label for="associates">Associates</label>
-        <input type="radio" name="journey" id="associates" value="associates"><br>
-        <label for="self-taught">Self Taught</label>
-        <input type="radio" name="journey" id="self-taugh11t" value="self-taught">
-
-        <P>How stressed are you?</P>
-        <label for=stress>Stress level (0-100%)</label>
-        <input type="range" name="stress_level" id="stress" min="0" max="100">
-        <p>Which Careers would you like?</p>
-        <label for="cs">Computer Science</label>
-        <input type="checkbox" name="cs" id="cs"><br>
-        <label for="se">Software Enginner</label>
-        <input type="checkbox" name="se" id="se"><br>
-        <label for="Nursing">Nursing</label>
-        <input type="checkbox" name="nursing" id="nursing">
-        <p>Please explain why you would be a great candidate below:</p>
-        <label for="explain"></label>
-        <textarea name="explanation" id="explain" cols="30" rows="10" placeholder="Type Here"></textarea>
+            <P>How stressed are you?</P>
+            <label for=stress>Stress level (0-100%)</label>
+            <input type="range" name="stress_level" id="stress" min="0" max="100">
+            <p>Which Careers would you like?</p>
+            <label for="cs">Computer Science</label>
+            <input type="checkbox" name="cs" id="cs"><br>
+            <label for="se">Software Enginner</label>
+            <input type="checkbox" name="se" id="se"><br>
+            <label for="Nursing">Nursing</label>
+            <input type="checkbox" name="nursing" id="nursing">
+            <p>Please explain why you would be a great candidate below:</p>
+            <label for="explain"></label>
+            <textarea name="explanation" id="explain" cols="30" rows="10" placeholder="Type Here"></textarea>
+        </div>
         <hr>
-        <h3>Applicants Information</h3>
-        <label for="fname">First name</label>
-        <input type="text" name="fname" id="fname"><br>
-        <label for="lname">Last name</label>
-        <input type="text" name="lname" id="lname"><br>
-        <label for="brithday">Birthday</label>
-        <input type="date" name="bday" id="birthday"><br>
-        <label for="email">Email</label>
-        <input type="text" name="emails" id="email"><br>
-        <label for=student>Are you still a student?</label><br>
-        <select name="student_status" id="student">
-            <option value="">--Pick an option--</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-            <option value="Homeless">Nah fam, im homeless</option>
-        </select>
-        <p>If you have finished the form, please submit below:</p>
-        <button>Submit Here punk!</button>
+        <div class="infoform">
+            <h3 class="subtopics">Applicants Information</h3>
+            <label for="fname">First name</label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">Last name</label>
+            <input type="text" name="lname" id="lname"><br>
+            <label for="brithday">Birthday</label>
+            <input type="date" name="bday" id="birthday"><br>
+            <label for="email">Email</label>
+            <input type="text" name="emails" id="email"><br>
+            <label for=student>Are you still a student?</label><br>
+            <select name="student_status" id="student">
+                <option value="">--Pick an option--</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+                <option value="Homeless">Nah fam, im homeless</option>
+            </select>
+
+            <p>If you have finished the form, please submit below:</p>
+            <button>Submit Here punk!</button>
+        </div>
     </form>
 </body>
 
