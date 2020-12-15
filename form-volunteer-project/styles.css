@@ -1,0 +1,117 @@
+/* Main Title Page */
+.main-title {
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+  border-bottom: 1px solid white;
+  height: 125px;
+  width: 900px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.intro-title,
+.intro-subtitle {
+  font-size: 24px;
+}
+
+.intro-title,
+.fa-caret-right {
+  margin-right: 20px;
+}
+
+.fa-caret-right {
+  color: #e8b10e;
+  font-size: 50px;
+}
+/* Basic Heading Format */
+h2 {
+  display: flex;
+  width: 300px;
+  color: #fefbe8;
+  text-align: left;
+  margin-left: 75px;
+}
+/*List Properties*/
+ul {
+  text-align: left;
+  position: center;
+  width: 300px;
+}
+
+li {
+  color: #fefbe8;
+  font-size: 1.1em;
+  list-style: none;
+  margin: 6px;
+}
+.fa-check {
+  color: #000;
+  background-color: #f6b902;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 6px;
+  margin-right: 12px;
+}
+
+/* Background color for containers */
+.volunteer-container {
+  background: #6467a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.operator-container {
+  background-color: #505387;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.where-to-use-container {
+  background: #6467a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.requirements-container {
+  background-color: #505387;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.main-title-container {
+  background-color: #505387;
+}
+
+/* Images */
+
+.logos {
+  display: flex;
+  padding: 5px;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background: white;
+}
+
+.footer-container {
+  text-align: center;
+  background-color: #6467a6;
+  padding: 30px;
+}
